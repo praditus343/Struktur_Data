@@ -1,0 +1,18 @@
+Tentu! Berikut adalah penjelasan sederhana tentang codingan di atas:
+
+Pertama, kita mendefinisikan sebuah struktur node yang memiliki tiga atribut: data (nilai simpul), left (pointer ke simpul anak sebelah kiri), dan right (pointer ke simpul anak sebelah kanan).
+
+Kemudian, kita mendefinisikan fungsi newNode untuk membuat simpul baru dengan mengalokasikan memori dan menginisialisasi atribut-atributnya.
+
+Selanjutnya, ada tiga fungsi traversal yaitu printPreorder, printInorder, dan printPostorder. Fungsi-fungsi ini digunakan untuk mencetak nilai-nilai simpul dalam urutan tertentu pada Binary Tree.
+
+printPreorder mencetak nilai simpul saat melewati simpul tersebut, kemudian mencetak nilai-nilai pada sub-pohon kiri, dan terakhir mencetak nilai-nilai pada sub-pohon kanan.
+printInorder mencetak nilai-nilai pada sub-pohon kiri, kemudian mencetak nilai simpul saat melewati simpul tersebut, dan terakhir mencetak nilai-nilai pada sub-pohon kanan.
+printPostorder mencetak nilai-nilai pada sub-pohon kiri, kemudian mencetak nilai-nilai pada sub-pohon kanan, dan terakhir mencetak nilai simpul saat melewati simpul tersebut.
+Di dalam fungsi main, kita membuat sebuah simpul awal yang akan menjadi akar dari Binary Tree. Kemudian, kita membuat simpul-simpul lainnya dan menghubungkannya untuk membentuk Binary Tree. Urutan data yang diberikan adalah 20, 10, 28, 6, 15, 35, 8, 2, 7, 40, 12, 9, 25.
+
+Setelah Binary Tree selesai dibentuk, kita mencetak traversal Binary Tree dengan urutan Preorder, Inorder, dan Postorder menggunakan fungsi-fungsi yang telah didefinisikan sebelumnya.
+
+Terakhir, kita menggunakan getchar() agar program menunggu masukan karakter sebelum berakhir.
+
+Secara keseluruhan, program ini membangun sebuah Binary Tree dari urutan data yang diberikan dan melakukan traversal untuk mencetak nilai-nilai simpul dalam urutan tertentu.
